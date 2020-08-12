@@ -20,6 +20,8 @@
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.unity.com/es/learn"/>
+			<acme:menu-suboption code="master.menu.anonymous.listbulletins" action="/anonymous/hernandez-bulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.createbulletins" action="/anonymous/hernandez-bulletin/create"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
