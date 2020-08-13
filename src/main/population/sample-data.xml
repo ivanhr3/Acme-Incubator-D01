@@ -16,5 +16,20 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<!-- Hernandez Bulletins -->
+	<bean id="hernandezbulletin1" class="acme.entities.bulletins.HernandezBulletin">
+		<property name="name" value="Iván"></property>
+		<property name="surname" value="Hernández"></property>
+		<property name="country" value="España"></property>
+		<property name="favouriteSinger" value="Eminem"></property>
+	</bean>
+	
+	<bean id="hernandezbulletin2" class="acme.entities.bulletins.HernandezBulletin">
+		<property name="name" value="Pedro"></property>
+		<property name="surname" value="Algeciras"></property>
+		<property name="country" value="Alemania"></property>
+		<property name="favouriteSinger" value="Harry Styles"></property>
+	</bean>
 
 </beans>
